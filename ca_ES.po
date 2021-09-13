@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.8\n"
 "POT-Creation-Date: 2021-02-22 12:09+0100\n"
-"PO-Revision-Date: 2021-09-07 23:00+0200\n"
+"PO-Revision-Date: 2021-09-13 20:55+0200\n"
 "Last-Translator: Benet Joan Darder Canyelles <benetj@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -57,7 +57,7 @@ msgstr "Adreça IP"
 #: admin/index.php:60 front/includes/vars.php:56
 #, php-format
 msgid "Searching for <strong>%1$s</strong> in <strong>%2$s</strong>."
-msgstr "Cencant <strong>%1$s</strong> a <strong>%2$s</strong>."
+msgstr "Cercant <strong>%1$s</strong> a <strong>%2$s</strong>."
 
 #: admin/index.php:128 front/includes/functions.php:146
 #: front/includes/vars.php:124 includes/functions-html.php:254
@@ -1400,7 +1400,7 @@ msgstr "Any %s"
 msgid "1 hit"
 msgid_plural "%s hits"
 msgstr[0] "1 accés"
-msgstr[1] "%s encerts"
+msgstr[1] "%s accessos"
 
 #: yourls-infos.php:433
 msgid "No traffic yet. Get some clicks first!"
