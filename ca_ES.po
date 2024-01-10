@@ -1,86 +1,40 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.8\n"
-"POT-Creation-Date: 2021-02-22 12:09+0100\n"
-"PO-Revision-Date: 2021-09-13 20:55+0200\n"
-"Last-Translator: Benet Joan Darder Canyelles <benetj@gmail.com>\n"
+"POT-Creation-Date: 2022-04-22 20:19+0200\n"
+"PO-Revision-Date: 2024-01-10 19:44+0100\n"
+"Last-Translator: Francesc Busquets <francesc@gmail.com>\n"
 "Language-Team: \n"
+"Language: ca_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.0.1\n"
 "X-Poedit-KeywordsList: yourls__;yourls_e;yourls_s;yourls_se;"
 "yourls_esc_attr__;yourls_esc_html__;yourls_x;yourls_ex;yourls_esc_attr_x;"
 "yourls_esc_html_x;yourls_n:1,2;yourls_nx:1,2;yourls_n_noop:1,2;"
 "yourls_nx_noop:1,2\n"
 "X-Poedit-Basepath: .\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"Language: ca_ES\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: tests\n"
 "X-Poedit-SearchPathExcluded-1: user\n"
 
-#: admin/index.php:18 admin/index.php:48 admin/index.php:120
-#: front/includes/functions.php:133 front/includes/functions.php:144
-#: front/includes/vars.php:14 front/includes/vars.php:44
-#: front/includes/vars.php:116 includes/functions-html.php:240
-#: includes/functions-html.php:252
-msgid "URL"
-msgstr "URL"
-
-#: admin/index.php:20 admin/index.php:44 admin/index.php:116
-#: front/includes/functions.php:132 front/includes/functions.php:143
-#: front/includes/vars.php:16 front/includes/vars.php:40
-#: front/includes/vars.php:112 includes/functions-html.php:239
-#: includes/functions-html.php:251 includes/functions-html.php:507
-#: includes/functions-html.php:645 yourls-infos.php:217
-msgid "Short URL"
-msgstr "URL curta"
-
-#: admin/index.php:40 front/includes/functions.php:131
-#: front/includes/vars.php:36 includes/functions-html.php:238
-msgid "All fields"
-msgstr "Tots els camps"
-
-#: admin/index.php:52 admin/index.php:124 front/includes/functions.php:134
-#: front/includes/functions.php:145 front/includes/vars.php:48
-#: front/includes/vars.php:120 includes/functions-html.php:241
-#: includes/functions-html.php:253 includes/functions-html.php:507
-msgid "Title"
-msgstr "Títol"
-
-#: admin/index.php:56 admin/index.php:132 front/includes/vars.php:52
-#: front/includes/vars.php:128
-msgid "IP Address"
-msgstr "Adreça IP"
-
-#: admin/index.php:60 front/includes/vars.php:56
+#: admin/index.php:33
 #, php-format
 msgid "Searching for <strong>%1$s</strong> in <strong>%2$s</strong>."
 msgstr "Cercant <strong>%1$s</strong> a <strong>%2$s</strong>."
 
-#: admin/index.php:128 front/includes/functions.php:146
-#: front/includes/vars.php:124 includes/functions-html.php:254
-#: includes/functions-html.php:647
-msgid "Date"
-msgstr "Data"
-
-#: admin/index.php:136 front/includes/functions.php:148
-#: front/includes/vars.php:132 includes/functions-html.php:256
-#: includes/functions-html.php:649
-msgid "Clicks"
-msgstr "Clics"
-
-#: admin/index.php:215 admin/index.php:226 admin/index.php:237
+#: admin/index.php:161 admin/index.php:172 admin/index.php:183
 #, php-format
 msgid "Short URL created, but could not redirect to %s !"
-msgstr "URL curta creada, però no pot redireccionar cap a %s !"
+msgstr "S'ha creat l'URL curt, però no es pot redireccionar a %s !"
 
-#: admin/index.php:247
+#: admin/index.php:193
 msgid "Unknown \"Share\" bookmarklet"
-msgstr "Miniaplicació d'adreces d'interés \"Comparteix\" desconeguda"
+msgstr "Miniaplicació per compartir adreces d'interès desconeguda"
 
-#: admin/index.php:300
+#: admin/index.php:246
 #, php-format
 msgid ""
 "Display <strong>%1$s</strong> to <strong class=\"increment\">%2$s</strong> "
@@ -89,53 +43,53 @@ msgstr ""
 "Es mostren <strong>%1$s</strong> a <strong class=\"increment\">%2$s</strong> "
 "URLs d'un total de <strong class=\"increment\">%3$s</strong>"
 
-#: admin/index.php:302
+#: admin/index.php:248
 #, php-format
 msgid "counting <strong>1</strong> click"
 msgid_plural "counting <strong>%s</strong> clicks"
 msgstr[0] "recompte d'<strong>1</strong> clic"
 msgstr[1] "recompte de <strong>%s</strong> clics"
 
-#: admin/index.php:305
+#: admin/index.php:251
 #, php-format
 msgid ""
-"Overall, tracking <strong class=\"increment\">%1$s</strong> links, <strong>"
-"%2$s</strong> clicks, and counting!"
+"Overall, tracking <strong class=\"increment\">%1$s</strong> links, "
+"<strong>%2$s</strong> clicks, and counting!"
 msgstr ""
-"De <strong class=\"increment\">%1$s</strong> enllaços en seguiment, <strong>"
-"%2$s</strong> clics, i comptant!"
+"De <strong class=\"increment\">%1$s</strong> enllaços en seguiment, "
+"<strong>%2$s</strong> clics, i comptant!"
 
-#: admin/index.php:366 front/index.php:64
+#: admin/index.php:312
 msgid "No URL"
 msgstr "Sense URL"
 
 #: admin/install.php:13
 msgid "PHP extension for PDO not found"
-msgstr "No es troba la llibreria PHP del controlador PDO"
+msgstr "No es troba la biblioteca PHP del controlador PDO"
 
 #: admin/install.php:18 admin/install.php:23
 #, php-format
 msgid "%s version is too old. Ask your server admin for an upgrade."
 msgstr ""
-"La versió %s és molt antiga. Demana a l'administrador del servidor una "
-"actualització."
+"La versió %s és molt antiga. Demaneu a l'administració del servidor que "
+"l'actualitzi."
 
 #: admin/install.php:29
 msgid "YOURLS already installed."
-msgstr "YOURLS ja s'ha instal·lat."
+msgstr "El YOURLS ja s'ha instal·lat."
 
 #: admin/install.php:40
 msgid "File <tt>.htaccess</tt> successfully created/updated."
-msgstr "Fitxer <tt>.htaccess</tt> creat/actualitzat corectament."
+msgstr "El fitxer <tt>.htaccess</tt> s'ha creat o actualitzat correctament."
 
 #: admin/install.php:42
 msgid ""
 "Could not write file <tt>.htaccess</tt> in YOURLS root directory. You will "
 "have to do it manually. See <a href=\"http://yourls.org/htaccess\">how</a>."
 msgstr ""
-"No es pot escriure el fitxer <tt>.htaccess</tt> en el directori arrel de "
-"YOURLS. Haurà d'edirat-ho manualment. Revisi <a href=\"http://yourls.org/"
-"htaccess\">com editar el fitxer htaccess de forma manual</a>."
+"No s'ha pogut escriure al fitxer <tt>.htaccess</tt> del directori arrel del "
+"YOURLS. Haureu de modificar-lo manualment. Vegeu <a href=\"http://yourls.org/"
+"htaccess\">com fer-ho</a>."
 
 #: admin/install.php:55 admin/install.php:76
 msgid "Install YOURLS"
@@ -145,109 +99,109 @@ msgstr "Instal·lació de YOURLS"
 msgid "YOURLS Administration Page"
 msgstr "Pàgina d'administració de YOURLS"
 
-#: admin/plugins.php:38
+#: admin/plugins.php:40
 msgid "Unsupported action"
 msgstr "Acció no suportada"
 
-#: admin/plugins.php:42
+#: admin/plugins.php:44
 msgid "No plugin specified, or not a valid plugin"
-msgstr "No s'ha especificat cap connector o el connector no és vàlid"
-
-#: admin/plugins.php:51
-msgid "Plugin has been activated"
-msgstr "S'ha activat el connector"
+msgstr "No s'ha especificat cap extensió, o l'extensió no és vàlida"
 
 #: admin/plugins.php:53
-msgid "Plugin has been deactivated"
-msgstr "S'ha desactivat el connector"
+msgid "Plugin has been activated"
+msgstr "S'ha activat l'extensió"
 
-#: admin/plugins.php:58 includes/functions-html.php:771
+#: admin/plugins.php:55
+msgid "Plugin has been deactivated"
+msgstr "S'ha desactivat l'extensió"
+
+#: admin/plugins.php:60 includes/functions-html.php:781
 msgid "Manage Plugins"
 msgstr "Gestiona els connectors"
 
-#: admin/plugins.php:64
+#: admin/plugins.php:66
 msgid "Plugins"
 msgstr "Connectors"
 
-#: admin/plugins.php:71
+#: admin/plugins.php:73
 #, php-format
 msgid "%s plugin"
 msgid_plural "%s plugins"
 msgstr[0] "%s connector"
 msgstr[1] "%s connectors"
 
-#: admin/plugins.php:75
+#: admin/plugins.php:77
 #, php-format
 msgid ""
 "You currently have <strong>%1$s</strong> installed, and <strong>%2$s</"
 "strong> activated"
 msgstr ""
-"Actualment hi ha <strong>%1$s</strong> instal·lats, i <strong>%2$s</strong> "
-"activats"
+"Actualment hi ha <strong>%1$s</strong> connectors instal·lats, i "
+"<strong>%2$s</strong> connectors activats"
 
-#: admin/plugins.php:80
+#: admin/plugins.php:82
 msgid "Plugin Name"
 msgstr "Nom del connector"
 
-#: admin/plugins.php:81
+#: admin/plugins.php:83
 msgid "Version"
 msgstr "Versió"
 
-#: admin/plugins.php:82
+#: admin/plugins.php:84
 msgid "Description"
 msgstr "Descripció"
 
-#: admin/plugins.php:83
+#: admin/plugins.php:85
 msgid "Author"
-msgstr "Autor"
+msgstr "Autoria"
 
-#: admin/plugins.php:84
+#: admin/plugins.php:86
 msgid "Action"
 msgstr "Acció"
 
-#: admin/plugins.php:109
+#: admin/plugins.php:111
 msgid "(no info)"
-msgstr "(Sense informació)"
+msgstr "(sense informació)"
 
-#: admin/plugins.php:119
+#: admin/plugins.php:121
 msgid "Deactivate"
 msgstr "Desactiva"
 
-#: admin/plugins.php:123
+#: admin/plugins.php:125
 msgid "Activate"
 msgstr "Activa"
 
-#: admin/plugins.php:134
+#: admin/plugins.php:136
 #, php-format
 msgid "plugin file location: %s"
 msgstr "ubicació del fitxer del connector: %s"
 
-#: admin/plugins.php:151
+#: admin/plugins.php:153
 msgid "Toggle active/inactive plugins"
-msgstr "Commuta connectors activats/desactivats"
+msgstr "Commuta connectors actius/inactius"
 
-#: admin/plugins.php:158
+#: admin/plugins.php:160
 msgid ""
 "If something goes wrong after you activate a plugin and you cannot use "
 "YOURLS or access this page, simply rename or delete its directory, or rename "
 "the plugin file to something different than <code>plugin.php</code>."
 msgstr ""
-"Si alguna cosa no va bé després d'activar un connector i no pot usar YOURLS "
-"o accedir a aquesta pàgina, simplement canviï el nom o elimini aquest "
-"directori, o canviï el nom del fitxer del connector diferent a <code>plugin."
-"php</code>."
+"Si alguna cosa no va bé després d'activar un connector i no podeu usar "
+"YOURLS o accedir a aquesta pàgina, simplement canvieu el nom o elimineu "
+"aquest directori, o canvieu el nom del fitxer del connector per tal que no "
+"es digui <code>plugin.php</code>."
 
-#: admin/plugins.php:160
+#: admin/plugins.php:162
 msgid "More plugins"
 msgstr "Més connectors"
 
-#: admin/plugins.php:162
+#: admin/plugins.php:164
 msgid ""
-"For more plugins, head to the official <a href=\"http://yourls.org/awesome"
-"\">Plugin list</a>."
+"For more plugins, head to the official <a href=\"http://yourls.org/"
+"awesome\">Plugin list</a>."
 msgstr ""
-"Per a més connectors, ves a la <a href=\"http://yourls.org/awesome\">llista "
-"oficial de connectors</a>."
+"Per a més connectors, visiteu la <a href=\"http://yourls.org/"
+"awesome\">llista oficial de connectors</a>."
 
 #: admin/tools.php:6
 msgid "Cool YOURLS Tools"
@@ -255,7 +209,7 @@ msgstr "Eines genials de YOURLS"
 
 #: admin/tools.php:13
 msgid "Bookmarklets"
-msgstr "Miniaplicació d'adreces d'interès"
+msgstr "Miniaplicacions d'adreces d'interès"
 
 #: admin/tools.php:15
 msgid ""
@@ -267,15 +221,15 @@ msgstr ""
 
 #: admin/tools.php:17
 msgid "Standard or Instant, Simple or Custom"
-msgstr "Estàndar o Instantània, Simple o Personalitzada"
+msgstr "Estàndard o Instantània, Simple o Personalitzada"
 
 #: admin/tools.php:20
 msgid ""
 "The <span>Standard Bookmarklets</span> will take you to a page where you can "
 "easily edit or delete your brand new short URL."
 msgstr ""
-"Les <span>miniaplicacions d'adreces d'interès</span> et duran a una pàgina "
-"on podràs editar o esborrar una URL."
+"Les <span>miniaplicacions d'adreces d'interès</span> us duran a una pàgina "
+"on podreu editar o esborrar fàcilment el vostre enllaç curt."
 
 #: admin/tools.php:22
 msgid ""
@@ -283,26 +237,26 @@ msgid ""
 "the page you are viewing (depending on the page and server configuration, "
 "they may silently fail)"
 msgstr ""
-"Les <span>miniaplicacions d'adreces d'interès instantànies</span> et "
-"mostraran la URL escurçada sense sortir de la pàgina que estàs visitant "
-"(depenent de la pàgina i la configuració del servidor, podria no funcionar "
-"com s'espera)"
+"Les <span>miniaplicacions d'adreces d'interès instantànies</span> us "
+"mostraran l'URL escurçat sense sortir de la pàgina que estigueu visitant "
+"(depenent de la pàgina i de la configuració del servidor, podria no "
+"funcionar com s'espera)"
 
 #: admin/tools.php:24
 msgid ""
 "The <span>Simple Bookmarklets</span> will generate a short URL with a random "
 "or sequential keyword."
 msgstr ""
-"Les <span>miniaplicacions d'adreces d'interès simples</span> generaran una "
-"URL curta amb una paraula clau aleatòria o seqüencial."
+"Les <span>miniaplicacions d'adreces d'interès simples</span> generaran un "
+"URL curt amb una paraula clau aleatòria o seqüencial."
 
 #: admin/tools.php:26
 msgid ""
 "The <span>Custom Keyword Bookmarklets</span> will prompt you for a custom "
 "keyword first."
 msgstr ""
-"Les <span>miniaplicacions d'adreces d'interès a mida</span> demanarà "
-"introduir una paraula que servirà d'enllaç."
+"Les <span>miniaplicacions d'adreces d'interès a mida</span> us demanaran "
+"quina paraula clau voleu utilitzar per a l'enllaç curt."
 
 #: admin/tools.php:30
 msgid ""
@@ -310,8 +264,8 @@ msgid ""
 "simply <span>select text</span> on the page you're viewing before clicking "
 "on your bookmarklet link"
 msgstr ""
-"Si vol compartir una descripció juntament amb l'enllaç que està escurçant, "
-"simplement <span>seleccioni el text</span> de la pàgina que està "
+"Si voleu compartir una descripció juntament amb l'enllaç que està escurçant, "
+"simplement <span>seleccioneu el text</span> de la pàgina que estigueu "
 "visualitzant abans de fer clic a la miniaplicació d'adreces d'interès"
 
 #: admin/tools.php:33
@@ -321,9 +275,9 @@ msgid ""
 "There is nothing you can do about this."
 msgstr ""
 "<strong>Nota Important:</strong> Les miniaplicacions d'adreces d'interès "
-"<span>poden fallar</span> dins pàgines web segures <em>https</em>, "
-"especialment les miniaplicacions d'adreces d'interès \"Instantànies\". No hi "
-"ha res que es pugui fer."
+"<span>poden fallar</span> en pàgines web segures <em>https</em>, "
+"especialment les miniaplicacions d'adreces d'interès \"Instantànies\". No es "
+"pot fer res per solucionar-ho."
 
 #: admin/tools.php:35
 msgid "The Bookmarklets"
@@ -332,16 +286,16 @@ msgstr "Les miniaplicacions d'adreces d'interès"
 #: admin/tools.php:39 admin/tools.php:188
 msgid "Click and drag links to your toolbar (or right-click and bookmark it)"
 msgstr ""
-"Fer clic i arrossegar cap a la barra d'eines del teu navegador (o clic dret "
-"i afegir a adreces d'interés)"
+"Feu clic i arrossegueu-ho a la barra d'eines del navegador (o feu clic amb "
+"el botó dret i afegiu-ho a les adreces d'interès)"
 
 #: admin/tools.php:45
 msgid "Standard (new page)"
-msgstr "Estàndar (nova pàgina)"
+msgstr "Estàndar (pàgina nova)"
 
 #: admin/tools.php:46
 msgid "Instant (popup)"
-msgstr "Instantània (Element emergent)"
+msgstr "Instantània (element emergent)"
 
 #: admin/tools.php:51
 msgid "Simple"
@@ -353,7 +307,7 @@ msgstr "Escurça"
 
 #: admin/tools.php:107
 msgid "Instant Shorten"
-msgstr "Escurçador Instantani"
+msgstr "Escurça instantàniament"
 
 #: admin/tools.php:113
 msgid "Custom Keyword"
@@ -361,11 +315,11 @@ msgstr "Paraula clau a mida"
 
 #: admin/tools.php:148
 msgid "Custom shorten"
-msgstr "Escurçat a mida"
+msgstr "Escurça a mida"
 
 #: admin/tools.php:176
 msgid "Instant Custom Shorten"
-msgstr "Escurçat a mida instantani"
+msgstr "Escurça a mida instantàniament"
 
 #: admin/tools.php:185
 msgid "Social Bookmarklets"
@@ -374,11 +328,11 @@ msgstr "Miniaplicacions d'adreces d'interès socials"
 #: admin/tools.php:187
 msgid "Create a short URL and share it on social networks, all in one click!"
 msgstr ""
-"Crea una URL curta i comparteix-la a les xarxes socials, tot amb un sol clic!"
+"Creeu un URL curt i compartiu-lo a les xarxes socials, tot amb un sol clic!"
 
 #: admin/tools.php:190
 msgid "Shorten and share:"
-msgstr "Escurça i comparteix:"
+msgstr "Escurceu i compartiu:"
 
 #: admin/tools.php:215
 msgid "YOURLS &amp; Facebook"
@@ -403,31 +357,31 @@ msgid ""
 "browser's address bar, add \"<span>%s</span>\" to the beginning of the "
 "current URL (right before its 'http://' part) and hit enter."
 msgstr ""
-"Quan visualitzeu una pàgina, també podeu afegir la seva URL completa: només "
+"Quan visualitzeu una pàgina, també podeu prefixar el seu URL complet: només "
 "heu d'anar a la barra d'adreces del navegador, afegir \"<span>%s </span>\" "
-"al començament de l'URL actual (just abans del seu 'http://' part) i premeu "
-"Intro."
+"al començament de l'URL actual (just abans de l'\"http://\") i prémer Retorn."
 
 #: admin/tools.php:290
 msgid ""
 "Note: this will probably not work if your web server is running on Windows"
 msgstr ""
-"Nota: això possiblement no funcionarà si el teu servidor web és Windows"
+"Nota: això possiblement no funcionarà si el vostre servidor web funciona amb "
+"Windows"
 
 #: admin/tools.php:292
 msgid " (which seems to be the case here)"
-msgstr " (Semble que és el cas)"
+msgstr " (com sembla que és el cas)"
 
 #: admin/tools.php:298
 msgid "Secure passwordless API call"
-msgstr "Crida a API segura passwordless"
+msgstr "Crida a un API segur sense contrasenya"
 
 #: admin/tools.php:301
 msgid ""
 "YOURLS allows API calls the old fashioned way, using <tt>username</tt> and "
 "<tt>password</tt> parameters."
 msgstr ""
-"YOURLS permet crides a l'API de forma manual, usant els paràmetres de "
+"YOURLS permet crides a l'API de forma manual, usant els paràmetres "
 "<tt>username</tt> i <tt>password</tt>."
 
 #: admin/tools.php:303
@@ -436,40 +390,39 @@ msgid ""
 "make API calls without using your login or your password, using a secret "
 "signature token."
 msgstr ""
-"Si us preocupa l'enviament de les credencials, també podeu fer trucades a "
-"l'API sense utilitzar l'usuari o la contrasenya, mitjançant un testimoni "
-"secret."
+"Si us preocupa l'enviament de credencials en obert, també podeu fer crides a "
+"l'API sense utilitzar usuari ni contrasenya, mitjançant un testimoni secret."
 
 #: admin/tools.php:306
 #, php-format
 msgid "Your secret signature token: <strong><code>%s</code></strong>"
-msgstr "Testimoni secret: <strong><code>%s</code></strong>"
+msgstr "El vostre testimoni secret és: <strong><code>%s</code></strong>"
 
 #: admin/tools.php:307
 msgid "(It's a secret. Keep it secret) "
-msgstr "(És un secret. L'has de mantenir en secret) "
+msgstr "(És un secret. Manteniu-lo en secret!) "
 
 #: admin/tools.php:309
 msgid ""
 "This signature token can only be used with the API, not with the admin "
 "interface."
 msgstr ""
-"Aquest testimoni només pot ser usat amb l'API, no amb el panell "
+"Aquest testimoni només es pot utilitzar amb l'API, no pas al panell "
 "d'administració."
 
 #: admin/tools.php:312
 msgid "Usage of the signature token"
-msgstr "Ús del testimoni signature"
+msgstr "Ús del testimoni de signatura"
 
 #: admin/tools.php:313
 msgid "Simply use parameter <tt>signature</tt> in your API requests. Example:"
 msgstr ""
-"Simplement usi el paràmetre <tt>signature</tt> a les seves peticions a "
-"l'API. Exemple:"
+"Simplement useu el paràmetre <tt>signature</tt> en les peticions que feu a "
+"l'API. Per exemple:"
 
 #: admin/tools.php:317
 msgid "Usage of a time limited signature token"
-msgstr "Ús del testimoni signature limitat per temps"
+msgstr "Ús del testimoni de signatura limitat per temps"
 
 #: admin/tools.php:320 admin/tools.php:322
 msgid "actual value:"
@@ -480,8 +433,8 @@ msgid ""
 "Now use parameters <tt>signature</tt> and <tt>timestamp</tt> in your API "
 "requests. Example:"
 msgstr ""
-"Ara usa paràmetres <tt>signature</tt> i <tt>timestamp</tt> a les crides API. "
-"Exemple:"
+"Ara utilitzeu els paràmetres <tt>signature</tt> i <tt>timestamp</tt> a les "
+"crides API. Per exemple:"
 
 #: admin/tools.php:327
 msgid "Actual values:"
@@ -490,27 +443,27 @@ msgstr "Valors reals:"
 #: admin/tools.php:329
 #, php-format
 msgid "This URL would be valid for only %s seconds"
-msgstr "Aquesta URL només serà vàlida durant %s segons"
+msgstr "Aquest URL només serà vàlid durant %s segons"
 
 #: admin/tools.php:333
 #, php-format
 msgid "See the <a href=\"%s\">Passwordless API</a> page on the wiki."
-msgstr "Revisa la pàgina de <a href=\"%s\">Passwordless API</a> a la wiki."
+msgstr "Vegeu la pàgina <a href=\"%s\">Passwordless API</a> a la wiki."
 
 #: admin/tools.php:334
 #, php-format
 msgid "See the <a href=\"%s\">API documentation</a> for more"
-msgstr ""
-"Revisa la <a href=\"%s\">documentació de l'API</a> per a més informació"
+msgstr "Vegeu la <a href=\"%s\">documentació de l'API</a> per a més informació"
 
 #: admin/upgrade.php:9 admin/upgrade.php:13
 msgid "Upgrade YOURLS"
-msgstr "Actualitza YOURLS"
+msgstr "Actualitzeu el YOURLS"
 
 #: admin/upgrade.php:18
 #, php-format
 msgid "Upgrade not required. Go <a href=\"%s\">back to play</a>!"
-msgstr "Actualització no necessaria. <a href=\"%s\">Torna-hi</a>!"
+msgstr ""
+"L'actualització no és necessària. <a href=\"%s\">Torneu a l'aplicació</a>!"
 
 #: admin/upgrade.php:51
 msgid "Your current installation needs to be upgraded."
@@ -521,16 +474,16 @@ msgid ""
 "Please, pretty please, it is recommended that you <strong>backup</strong> "
 "your database<br/>(you should do this regularly anyway)"
 msgstr ""
-"Si us plau, es recomana fer una <strong>còpia de seguretat</strong> de la "
-"base de dades <br/> (hauries de fer-ho sovint)"
+"Es recomana que feu una <strong>còpia de seguretat</strong> de la base de "
+"dades <br/> (hauríeu de fer-ho de manera regular)"
 
 #: admin/upgrade.php:53
 msgid ""
 "Nothing awful <em>should</em> happen, but this doesn't mean it <em>won't</"
 "em> happen, right? ;)"
 msgstr ""
-"Res terrible <em>hauria</em> de passar, però això no vol dir que <em>pugui</"
-"em> passar, oi? ;)"
+"Res terrible <em>hauria</em> de passar, però això no vol dir que <em>no "
+"pugui</em> passar, oi? ;)"
 
 #: admin/upgrade.php:54
 msgid ""
@@ -542,11 +495,11 @@ msgstr ""
 
 #: admin/upgrade.php:55
 msgid ""
-"If everything goes too fast and you cannot read, <span class=\"success"
-"\">good for you</span>, let it go :)"
+"If everything goes too fast and you cannot read, <span "
+"class=\"success\">good for you</span>, let it go :)"
 msgstr ""
-"Si tot plegat va massa de pressa i no pot llegir-ho, <span class=\"success"
-"\">bé per a tu</span>, deixa-ho anar :)"
+"Si tot plegat va massa de pressa i no pot llegir-ho, <span "
+"class=\"success\">bé per a tu</span>, deixa-ho anar :)"
 
 #: admin/upgrade.php:56
 msgid "Once you are ready, press \"Upgrade\" !"
@@ -565,135 +518,6 @@ msgstr "El sistema està actualitzat ! "
 msgid "Go back to <a href=\"%s\">the admin interface</a>"
 msgstr "Torna al<a href=\"%s\">panell d'administració</a>"
 
-#: front/includes/functions.php:129 includes/functions-html.php:236
-msgid "Search for"
-msgstr "Cerca …"
-
-#: front/includes/functions.php:136 includes/functions-html.php:244
-msgid "Search in"
-msgstr "Cerca a"
-
-#: front/includes/functions.php:138 includes/functions-html.php:246
-#, php-format
-msgid "Search for %1$s in %2$s"
-msgstr "Cerca %1$s a %2$s"
-
-#: front/includes/functions.php:147 includes/functions-html.php:242
-#: includes/functions-html.php:255 includes/functions-html.php:648
-msgid "IP"
-msgstr "IP"
-
-#: front/includes/functions.php:150 includes/functions-html.php:258
-msgid "Sort by"
-msgstr "Ordenar per"
-
-#: front/includes/functions.php:153 includes/functions-html.php:261
-msgid "Ascending"
-msgstr "Ascendent"
-
-#: front/includes/functions.php:154 includes/functions-html.php:262
-msgid "Descending"
-msgstr "Descendent"
-
-#: front/includes/functions.php:156 includes/functions-html.php:264
-msgid "Sort order"
-msgstr "Ordenació"
-
-#: front/includes/functions.php:158 includes/functions-html.php:266
-#, php-format
-msgid "Order by %1$s %2$s"
-msgstr "Ordenar per %1$s %2$s"
-
-#: front/includes/functions.php:163 includes/functions-html.php:271
-msgid "Number of rows to show"
-msgstr "Nombre de files a mostrar"
-
-#: front/includes/functions.php:164 includes/functions-html.php:272
-#, php-format
-msgid "Show %s rows"
-msgstr "Mostra %s files"
-
-#: front/includes/functions.php:169 includes/functions-html.php:277
-msgid "more"
-msgstr "més"
-
-#: front/includes/functions.php:170 includes/functions-html.php:278
-msgid "less"
-msgstr "menys"
-
-#: front/includes/functions.php:172 includes/functions-html.php:280
-msgid "Show links with"
-msgstr "Mostra enllaços amb"
-
-#: front/includes/functions.php:173 includes/functions-html.php:281
-msgid "Number of clicks"
-msgstr "Nombre de clics"
-
-#: front/includes/functions.php:175 includes/functions-html.php:283
-#, php-format
-msgid "Show links with %1$s than %2$s clicks"
-msgstr "Mostra enllaços amb  %1$s de %2$s clics"
-
-#: front/includes/functions.php:180 includes/functions-html.php:288
-msgid "before"
-msgstr "abans"
-
-#: front/includes/functions.php:181 includes/functions-html.php:289
-msgid "after"
-msgstr "després"
-
-#: front/includes/functions.php:182 includes/functions-html.php:290
-msgid "between"
-msgstr "entre"
-
-#: front/includes/functions.php:184 includes/functions-html.php:292
-msgid "Show links created"
-msgstr "Mostra enllaços creats"
-
-#: front/includes/functions.php:185 includes/functions-html.php:293
-msgid "Select a date"
-msgstr "Selecciona una data"
-
-#: front/includes/functions.php:187 includes/functions-html.php:295
-msgid "Select an end date"
-msgstr "Seleccioneu una data de finalització"
-
-#: front/includes/functions.php:189 includes/functions-html.php:297
-#, php-format
-msgid "Show links created %1$s %2$s %3$s %4$s"
-msgstr "Mostra enllaços creats %1$s %2$s %3$s %4$s"
-
-#: front/includes/functions.php:193 includes/functions-html.php:301
-msgid "Search"
-msgstr "Cerca"
-
-#: front/includes/functions.php:195 includes/functions-html.php:303
-msgid "Clear"
-msgstr "Elimina"
-
-#: front/includes/functions.php:217 includes/functions-html.php:323
-#, php-format
-msgid "1 page"
-msgid_plural "%s pages"
-msgstr[0] "1 pàgina"
-msgstr[1] "%s pàgines"
-
-#: front/includes/functions.php:225 includes/functions-html.php:331
-msgid "Go to First Page"
-msgstr "Ves a la primera pàgina"
-
-#: front/includes/functions.php:225 includes/functions-html.php:331
-msgid "&laquo; First"
-msgstr "&laquo; Primera"
-
-#: front/includes/functions.php:239 includes/functions-html.php:345
-msgid "Go to Last Page"
-msgstr "Ves a la darrera pàgina"
-
-#: front/includes/functions.php:239 includes/functions-html.php:345
-msgid "Last &raquo;"
-msgstr "Darrera &raquo;"
-
 #: includes/Database/YDB.php:165
 msgid "Incorrect DB config, or could not connect to DB"
 msgstr ""
@@ -704,10 +528,46 @@ msgstr ""
 msgid "Fatal error"
 msgstr "Error fatal"
 
+#: includes/Views/AdminParams.php:59 includes/functions-html.php:239
+msgid "All fields"
+msgstr "Tots els camps"
+
+#: includes/Views/AdminParams.php:60 includes/functions-html.php:240
+#: includes/functions-html.php:252 includes/functions-html.php:512
+#: includes/functions-html.php:650 yourls-infos.php:219
+msgid "Short URL"
+msgstr "URL curt"
+
+#: includes/Views/AdminParams.php:61 includes/functions-html.php:241
+#: includes/functions-html.php:253
+msgid "URL"
+msgstr "URL"
+
+#: includes/Views/AdminParams.php:62 includes/functions-html.php:242
+#: includes/functions-html.php:254 includes/functions-html.php:512
+msgid "Title"
+msgstr "Títol"
+
+#: includes/Views/AdminParams.php:63
+msgid "IP Address"
+msgstr "Adreça IP"
+
+#: includes/Views/AdminParams.php:64 includes/functions-html.php:255
+#: includes/functions-html.php:652
+msgid "Date"
+msgstr "Data"
+
+#: includes/Views/AdminParams.php:65 includes/functions-html.php:257
+#: includes/functions-html.php:654
+msgid "Clicks"
+msgstr "Clics"
+
 #: includes/auth.php:53
 #, php-format
 msgid "Could not auto-encrypt passwords. Error was: \"%s\"."
-msgstr "No es pot auto-xifrar contrasenyes. L'errada ha estat: \"%s\"."
+msgstr ""
+"Les contrasenyes no es poden encriptar de manera automàtica. L'errada ha "
+"estat: \"%s\"."
 
 #: includes/auth.php:55
 #, php-format
@@ -718,212 +578,341 @@ msgstr "<a href=\"%s\">Obtenir ajuda</a>."
 #, php-format
 msgid "<a href=\"%s\">Click here</a> to dismiss this message for one week."
 msgstr ""
-"<a href=\"%s\">Clic aquí</a> per deshabilitar el missatge durant una setmana."
+"<a href=\"%s\">Feu clic aquí</a> per deshabilitar el missatge durant una "
+"setmana."
 
 #: includes/class-mysql.php:16
 msgid "Incorrect DB config, please refer to documentation"
-msgstr ""
-"Configuració incorrecte de base de dades, si us plau revisa la documentació"
+msgstr "Configuració incorrecta de la base de dades. Reviseu la documentació"
 
-#: includes/functions-auth.php:38
+#: includes/functions-auth.php:41
 msgid "Logged out successfully"
-msgstr "Desconnecció realitzada correctament"
+msgstr "Desconnexió realitzada correctament"
 
-#: includes/functions-auth.php:113
+#: includes/functions-auth.php:118
 msgid "Invalid username or password"
 msgstr "El nom d'usuari o la contrasenya no són vàlids"
 
-#: includes/functions-auth.php:115
+#: includes/functions-auth.php:120
 msgid "Please log in"
 msgstr "Cal que inicieu una sessió"
 
-#: includes/functions-auth.php:630
+#: includes/functions-auth.php:663
 msgid "Unauthorized action or expired link"
 msgstr "Acció no autoritzada o enllaç caducat"
 
-#: includes/functions-auth.php:630
+#: includes/functions-auth.php:663
 msgid "Error"
 msgstr "Error"
 
-#: includes/functions-html.php:144
+#: includes/functions-html.php:145
 #, php-format
 msgid "1 query"
 msgid_plural "%s queries"
 msgstr[0] "1 consulta"
 msgstr[1] "%s consultes"
 
-#: includes/functions-html.php:153
+#: includes/functions-html.php:154
 #, php-format
 msgid "Powered by %s"
-msgstr "Gràcies a %s"
+msgstr "Gràcies al %s"
 
-#: includes/functions-html.php:186
+#: includes/functions-html.php:187
 msgid "Enter the URL"
-msgstr "Introduïu un URL"
+msgstr "Introduïu l'URL"
 
-#: includes/functions-html.php:188
+#: includes/functions-html.php:189
 msgid "Optional "
 msgstr "Opcional "
 
-#: includes/functions-html.php:188
+#: includes/functions-html.php:189
 msgid "Custom short URL"
-msgstr "URL curta personalitzada"
+msgstr "URL curt personalitzat"
 
-#: includes/functions-html.php:191
+#: includes/functions-html.php:192
 msgid "Shorten The URL"
-msgstr "Escurça la URL"
+msgstr "Escurça l'URL"
 
-#: includes/functions-html.php:390
+#: includes/functions-html.php:237
+msgid "Search for"
+msgstr "Cerca"
+
+#: includes/functions-html.php:243 includes/functions-html.php:256
+#: includes/functions-html.php:653
+msgid "IP"
+msgstr "IP"
+
+#: includes/functions-html.php:245
+msgid "Search in"
+msgstr "Cerca a"
+
+#: includes/functions-html.php:247
+#, php-format
+msgid "Search for %1$s in %2$s"
+msgstr "Cerca %1$s a %2$s"
+
+#: includes/functions-html.php:259
+msgid "Sort by"
+msgstr "Ordena per"
+
+#: includes/functions-html.php:262
+msgid "Ascending"
+msgstr "Ascendent"
+
+#: includes/functions-html.php:263
+msgid "Descending"
+msgstr "Descendent"
+
+#: includes/functions-html.php:265
+msgid "Sort order"
+msgstr "Criteri d'ordenació"
+
+#: includes/functions-html.php:267
+#, php-format
+msgid "Order by %1$s %2$s"
+msgstr "Ordena per %1$s %2$s"
+
+#: includes/functions-html.php:272
+msgid "Number of rows to show"
+msgstr "Nombre de files a mostrar"
+
+#: includes/functions-html.php:273
+#, php-format
+msgid "Show %s rows"
+msgstr "Mostra %s files"
+
+#: includes/functions-html.php:278
+msgid "more"
+msgstr "més"
+
+#: includes/functions-html.php:279
+msgid "less"
+msgstr "menys"
+
+#: includes/functions-html.php:281
+msgid "Show links with"
+msgstr "Mostra enllaços amb"
+
+#: includes/functions-html.php:282
+msgid "Number of clicks"
+msgstr "Nombre de clics"
+
+#: includes/functions-html.php:284
+#, php-format
+msgid "Show links with %1$s than %2$s clicks"
+msgstr "Mostra enllaços amb %1$s de %2$s clics"
+
+#: includes/functions-html.php:289
+msgid "before"
+msgstr "abans"
+
+#: includes/functions-html.php:290
+msgid "after"
+msgstr "després"
+
+#: includes/functions-html.php:291
+msgid "between"
+msgstr "entre"
+
+#: includes/functions-html.php:293
+msgid "Show links created"
+msgstr "Mostra els enllaços creats"
+
+#: includes/functions-html.php:294
+msgid "Select a date"
+msgstr "Seleccioneu una data"
+
+#: includes/functions-html.php:296
+msgid "Select an end date"
+msgstr "Seleccioneu una data de finalització"
+
+#: includes/functions-html.php:298
+#, php-format
+msgid "Show links created %1$s %2$s %3$s %4$s"
+msgstr "Mostra enllaços creats %1$s %2$s %3$s %4$s"
+
+#: includes/functions-html.php:302
+msgid "Search"
+msgstr "Cerca"
+
+#: includes/functions-html.php:304
+msgid "Clear"
+msgstr "Esborra"
+
+#: includes/functions-html.php:324
+#, php-format
+msgid "1 page"
+msgid_plural "%s pages"
+msgstr[0] "1 pàgina"
+msgstr[1] "%s pàgines"
+
+#: includes/functions-html.php:332
+msgid "Go to First Page"
+msgstr "Ves a la primera pàgina"
+
+#: includes/functions-html.php:332
+msgid "&laquo; First"
+msgstr "&laquo; Primera"
+
+#: includes/functions-html.php:346
+msgid "Go to Last Page"
+msgstr "Ves a la darrera pàgina"
+
+#: includes/functions-html.php:346
+msgid "Last &raquo;"
+msgstr "Última &raquo;"
+
+#: includes/functions-html.php:393
 msgid "Your short link"
-msgstr "El teu enllaç curt"
+msgstr "El vostre enllaç curt"
 
-#: includes/functions-html.php:392 yourls-infos.php:548
+#: includes/functions-html.php:395 yourls-infos.php:550
 msgid "Quick Share"
 msgstr "Compartició ràpida"
 
-#: includes/functions-html.php:424
+#: includes/functions-html.php:427
 msgid "Long link"
 msgstr "Enllaç llarg"
 
-#: includes/functions-html.php:426 includes/functions-html.php:542
-#: includes/functions-html.php:543
+#: includes/functions-html.php:429 includes/functions-html.php:547
+#: includes/functions-html.php:548
 msgid "Stats"
 msgstr "Estadístiques"
 
-#: includes/functions-html.php:440
+#: includes/functions-html.php:443
 msgid "Share with"
 msgstr "Compartir a"
 
-#: includes/functions-html.php:441
+#: includes/functions-html.php:444
 msgid "Tweet this!"
 msgstr "Piula-ho!"
 
-#: includes/functions-html.php:442
+#: includes/functions-html.php:445
 msgid "Share on Facebook"
 msgstr "Comparteix al Facebook"
 
-#: includes/functions-html.php:507 yourls-infos.php:235
+#: includes/functions-html.php:512 yourls-infos.php:237
 msgid "Long URL"
 msgstr "URL complet"
 
-#: includes/functions-html.php:507
+#: includes/functions-html.php:512
 msgid "Save"
 msgstr "Desa"
 
-#: includes/functions-html.php:507
+#: includes/functions-html.php:512
 msgid "Save new values"
-msgstr "Desar els nous valors"
+msgstr "Desa els nous valors"
 
-#: includes/functions-html.php:507
+#: includes/functions-html.php:512
 msgid "Cancel"
 msgstr "Cancel·la"
 
-#: includes/functions-html.php:507
+#: includes/functions-html.php:512
 msgid "Cancel editing"
 msgstr "Cancel·la l'edició"
 
-#: includes/functions-html.php:509
+#: includes/functions-html.php:514
 msgid "Error, URL not found"
-msgstr "Errrror, URL no trobada"
+msgstr "Error, no s'ha trobat l'URL"
 
-#: includes/functions-html.php:548 includes/functions-html.php:549
-#: yourls-infos.php:245 yourls-infos.php:546
+#: includes/functions-html.php:553 includes/functions-html.php:554
+#: yourls-infos.php:247 yourls-infos.php:548
 msgid "Share"
-msgstr "Compartir"
+msgstr "Comparteix"
 
-#: includes/functions-html.php:555 includes/functions-html.php:556
+#: includes/functions-html.php:560 includes/functions-html.php:561
 msgid "Edit"
 msgstr "Edita"
 
-#: includes/functions-html.php:562 includes/functions-html.php:563
+#: includes/functions-html.php:567 includes/functions-html.php:568
 msgid "Delete"
-msgstr "Suprimir"
+msgstr "Esborra"
 
-#: includes/functions-html.php:584
+#: includes/functions-html.php:589
 msgid "Not a common link"
 msgstr "Enllaç no habitual"
 
-#: includes/functions-html.php:646
+#: includes/functions-html.php:651
 msgid "Original URL"
 msgstr "Adreça URL original"
 
-#: includes/functions-html.php:650
+#: includes/functions-html.php:655
 msgid "Actions"
 msgstr "Accions"
 
-#: includes/functions-html.php:717
+#: includes/functions-html.php:722
 msgid "Username"
 msgstr "Nom d'usuari"
 
-#: includes/functions-html.php:721
+#: includes/functions-html.php:726
 msgid "Password"
 msgstr "Contrasenya"
 
-#: includes/functions-html.php:728
+#: includes/functions-html.php:734
 msgid "Login"
-msgstr "Entrada"
+msgstr "Entra"
 
-#: includes/functions-html.php:749
+#: includes/functions-html.php:759
 #, php-format
 msgid "Hello <strong>%s</strong>"
 msgstr "Hola <strong>%s</strong>"
 
-#: includes/functions-html.php:749
+#: includes/functions-html.php:759
 msgid "Logout"
-msgstr "Sortir"
+msgstr "Surt"
 
-#: includes/functions-html.php:753
+#: includes/functions-html.php:763
 msgid "Help"
 msgstr "Ajuda"
 
-#: includes/functions-html.php:760
+#: includes/functions-html.php:770
 msgid "Go to the admin interface"
-msgstr "Anar al panell d'administració"
+msgstr "Ves al panell d'administració"
 
-#: includes/functions-html.php:761
+#: includes/functions-html.php:771
 msgid "Admin interface"
 msgstr "Panell d'administració"
 
-#: includes/functions-html.php:767
+#: includes/functions-html.php:777
 msgid "Tools"
 msgstr "Eines"
 
-#: includes/functions-html.php:851
+#: includes/functions-html.php:861
 #, php-format
 msgid "Page \"%1$s\" not found"
-msgstr "Pàgina \"%1$s\" no trobada"
+msgstr "La pàgina \"%1$s\" no s'ha trobat"
 
-#: includes/functions-html.php:851
+#: includes/functions-html.php:861
 msgid "Not found"
 msgstr "No s'ha trobat"
 
-#: includes/functions-html.php:897 includes/functions-html.php:902
+#: includes/functions-html.php:907 includes/functions-html.php:912
 msgid "Today"
 msgstr "Avui"
 
-#: includes/functions-html.php:898 includes/functions-html.php:903
+#: includes/functions-html.php:908 includes/functions-html.php:913
 msgid "Close"
 msgstr "Tanca"
 
-#: includes/functions-html.php:918
+#: includes/functions-html.php:931
 #, php-format
 msgid "<a href=\"%s\">YOURLS version %s</a> is available. Please update!"
 msgstr ""
-"<a href=\"%s\">La versió  %s de YOURLS</a> està disponible. Actualitza!"
+"<a href=\"%s\">La versió  %s de YOURLS</a> està disponible. Actualitzeu-la!"
 
-#: includes/functions-html.php:956
+#: includes/functions-html.php:946
 msgid "Drag to your toolbar!"
-msgstr "Arrossega cap a la barra d'eines!"
+msgstr "Arrossegueu-ho a la barra d'eines!"
 
 #: includes/functions-install.php:258
 #, php-format
 msgid "Table '%s' created."
-msgstr "Taula '%s' creada."
+msgstr "S'ha creat la taula '%s'."
 
 #: includes/functions-install.php:260
 #, php-format
 msgid "Error creating table '%s'."
-msgstr "Error creant la taula '%s'."
+msgstr "S'ha produït un error en crear la taula '%s'."
 
 #: includes/functions-install.php:266
 msgid "Could not initialize options"
@@ -935,11 +924,11 @@ msgstr "No s'han pogut inserir exemples d'URL curts"
 
 #: includes/functions-install.php:274
 msgid "YOURLS tables successfully created."
-msgstr "Taules de YOURLS creades correctament."
+msgstr "Les taules del YOURLS han estat creades correctament."
 
 #: includes/functions-install.php:276
 msgid "Error creating YOURLS tables."
-msgstr "Error creant les taules de YOURLS."
+msgstr "S'ha produït un error en crear les taules del YOURLS."
 
 #: includes/functions-l10n.php:749 includes/functions-l10n.php:759
 #: includes/functions-l10n.php:772
@@ -978,31 +967,31 @@ msgstr "Dissabte"
 
 #: includes/functions-l10n.php:759
 msgid "S_Sunday_initial"
-msgstr "Dg_Diumenge_initial"
+msgstr "Dg"
 
 #: includes/functions-l10n.php:760
 msgid "M_Monday_initial"
-msgstr "Dl_Dilluns_initial"
+msgstr "Dl"
 
 #: includes/functions-l10n.php:761
 msgid "T_Tuesday_initial"
-msgstr "Dt_Dimarts_initial"
+msgstr "Dt"
 
 #: includes/functions-l10n.php:762
 msgid "W_Wednesday_initial"
-msgstr "Dc_Dimecres_initial"
+msgstr "Dc"
 
 #: includes/functions-l10n.php:763
 msgid "T_Thursday_initial"
-msgstr "Dj_Dijous_initial"
+msgstr "Dj"
 
 #: includes/functions-l10n.php:764
 msgid "F_Friday_initial"
-msgstr "Dv_Divendres_initial"
+msgstr "Dv"
 
 #: includes/functions-l10n.php:765
 msgid "S_Saturday_initial"
-msgstr "Ds_Dissabte_initial"
+msgstr "Ds"
 
 #: includes/functions-l10n.php:772
 msgid "Sun"
@@ -1082,51 +1071,51 @@ msgstr "Desembre"
 
 #: includes/functions-l10n.php:796
 msgid "Jan_January_abbreviation"
-msgstr "Gen_Gener_abbreviation"
+msgstr "Gen"
 
 #: includes/functions-l10n.php:797
 msgid "Feb_February_abbreviation"
-msgstr "Feb_Febrer_abbreviation"
+msgstr "Feb"
 
 #: includes/functions-l10n.php:798
 msgid "Mar_March_abbreviation"
-msgstr "Mar_Març_abbreviation"
+msgstr "Mar"
 
 #: includes/functions-l10n.php:799
 msgid "Apr_April_abbreviation"
-msgstr "Abr_Abril_abbreviation"
+msgstr "Abr"
 
 #: includes/functions-l10n.php:800
 msgid "May_May_abbreviation"
-msgstr "Mai_Maig_abbreviation"
+msgstr "Mai"
 
 #: includes/functions-l10n.php:801
 msgid "Jun_June_abbreviation"
-msgstr "Jun_Juny_abbreviation"
+msgstr "Jun"
 
 #: includes/functions-l10n.php:802
 msgid "Jul_July_abbreviation"
-msgstr "Jul_Juliol_abbreviation"
+msgstr "Jul"
 
 #: includes/functions-l10n.php:803
 msgid "Aug_August_abbreviation"
-msgstr "Ago_Agost_abbreviation"
+msgstr "Ago"
 
 #: includes/functions-l10n.php:804
 msgid "Sep_September_abbreviation"
-msgstr "Set_Setembre_abbreviation"
+msgstr "Set"
 
 #: includes/functions-l10n.php:805
 msgid "Oct_October_abbreviation"
-msgstr "Oct_Octubre_abbreviation"
+msgstr "Oct"
 
 #: includes/functions-l10n.php:806
 msgid "Nov_November_abbreviation"
-msgstr "Nov_Novembre_abbreviation"
+msgstr "Nov"
 
 #: includes/functions-l10n.php:807
 msgid "Dec_December_abbreviation"
-msgstr "Des_Desembre_abbreviation"
+msgstr "Des"
 
 #: includes/functions-l10n.php:814
 msgid "am"
@@ -1156,142 +1145,147 @@ msgstr ","
 msgid "ltr"
 msgstr "ltr"
 
-#: includes/functions-plugins.php:475
+#: includes/functions-plugins.php:618
 msgid "Could not find and deactivate plugin :"
 msgid_plural "Could not find and deactivate plugins :"
-msgstr[0] "No s'ha trobat i desactivat el connector: "
-msgstr[1] "No s'han trobat i desactivat els connectors: "
+msgstr[0] "No s'ha trobat l'extensió a desactivar:"
+msgstr[1] "No s'han trobat les extensions a desactivar:"
 
-#: includes/functions-plugins.php:511
+#: includes/functions-plugins.php:658
 msgid "Not a valid plugin file"
-msgstr "Connector no vàlid"
+msgstr "No és una extensió vàlida"
 
-#: includes/functions-plugins.php:517
+#: includes/functions-plugins.php:664
 msgid "Plugin already activated"
-msgstr "Connector ja activat"
+msgstr "Extensió ja activada"
 
-#: includes/functions-plugins.php:527
+#: includes/functions-plugins.php:670 includes/functions-plugins.php:719
 #, php-format
 msgid "Plugin generated unexpected output. Error was: <br/><pre>%s</pre>"
-msgstr "EL connector ha generat una sortida insesperada. <br/><pre>%s</pre>"
+msgstr ""
+"L'extensió ha generat una sortida inesperada. L'error ha estat: <br/"
+"><pre>%s</pre>"
 
-#: includes/functions-plugins.php:552
+#: includes/functions-plugins.php:710
 msgid "Plugin not active"
-msgstr "Connector no activat"
+msgstr "Extensió inactiva"
 
-#: includes/functions-plugins.php:628
+#: includes/functions-plugins.php:804
 msgid ""
 "This page does not exist. Maybe a plugin you thought was activated is "
 "inactive?"
 msgstr ""
-"Aquesta pàgina no existeix. Possiblement un connector que pensaves estava "
-"activat no hi està?"
+"Aquesta pàgina no existeix. Podria ser que una extensió que pensaves que "
+"estava activada no ho estigués?"
 
-#: includes/functions-plugins.php:628
+#: includes/functions-plugins.php:804
 msgid "Invalid link"
 msgstr "Enllaç erroni"
 
-#: includes/functions-plugins.php:634
+#: includes/functions-plugins.php:810
 msgid ""
 "This page cannot be displayed because the displaying function is not "
 "callable."
-msgstr "Aquesta pàgina no es pot mostrar."
+msgstr ""
+"Aquesta pàgina no es pot mostrar perquè la funció que la mostraria no es pot "
+"cridar."
 
-#: includes/functions-plugins.php:634
+#: includes/functions-plugins.php:810
 msgid "Invalid code"
 msgstr "Codi invàlid"
 
-#: includes/functions-shorturls.php:38
+#: includes/functions-shorturls.php:55
 msgid "Missing or malformed URL"
-msgstr "URL amb format incorrecte o no existeix el recurs"
+msgstr "URL inexistent o amb un format incorrecte"
 
-#: includes/functions-shorturls.php:52
+#: includes/functions-shorturls.php:69
 msgid "URL is a short URL"
-msgstr "La URL ja és una URL curta"
+msgstr "L'URL ja és un URL curt"
 
-#: includes/functions-shorturls.php:84
+#: includes/functions-shorturls.php:83
+#, php-format
+msgid "%s already exists in database (short URL: %s)"
+msgstr "%s ja existeix a la base de dades (URL curt: %s)"
+
+#: includes/functions-shorturls.php:110
 #, php-format
 msgid "Short URL %s already exists in database or is reserved"
 msgstr ""
-"La URL curta %s ja existeix a la base de dades o és una paraula reservada"
+"L'URL curt %s ja existeix a la base de dades o és una paraula reservada"
 
-#: includes/functions-shorturls.php:90 includes/functions-shorturls.php:112
+#: includes/functions-shorturls.php:140
 #, php-format
 msgid "%s added to database"
-msgstr "%s afegida a la base de dades"
+msgstr "S'ha afegit %s a la base de dades"
 
-#: includes/functions-shorturls.php:120
+#: includes/functions-shorturls.php:149
 msgid "Error saving url to database"
-msgstr "Error desant la url a la base de dades"
+msgstr "S'ha produït un error en desar l'URL a la base de dades"
 
-#: includes/functions-shorturls.php:137
-#, php-format
-msgid "%s already exists in database"
-msgstr "%s ja existeix a la base de dades"
-
-#: includes/functions-shorturls.php:309
+#: includes/functions-shorturls.php:324
 msgid "Long URL or Short URL cannot be blank"
-msgstr "Els camps no poden quedar buits"
+msgstr "L'URL llarg i l'URL curt no poden deixar-se en blanc"
 
-#: includes/functions-shorturls.php:339
+#: includes/functions-shorturls.php:360
 msgid "Link updated in database"
-msgstr "Enllaç actualitzat a la base de dades"
+msgstr "S'ha actualitzat l'enllaç a la base de dades"
 
-#: includes/functions-shorturls.php:342
+#: includes/functions-shorturls.php:363
 #, php-format
 msgid "Error updating %s (Short URL: %s)"
-msgstr "Error actualitzant %s (URL curta: %s)"
+msgstr "S'ha produït un error en actualitzar %s (URL curt: %s)"
 
-#: includes/functions-shorturls.php:348
+#: includes/functions-shorturls.php:369
 msgid "URL or keyword already exists in database"
-msgstr "La URL o la paraula clau ja existeixen a la base de dades"
+msgstr "L'URL o la paraula clau ja existeixen a la base de dades"
 
-#: includes/functions.php:331
+#: includes/functions.php:372
 #, php-format
 msgid ""
 "if you are not redirected after 10 seconds, please <a href=\"%s\">click "
 "here</a>"
 msgstr ""
-"si no ets redirigit abans de 10 segons, si us plau <a href=\"%s\">fes clic "
-"aquí</a>"
+"si el navegador no us hi redirigeix abans de 10 segons, <a href=\"%s\">feu "
+"clic aquí</a>"
 
-#: includes/functions.php:340
+#: includes/functions.php:381
 #, php-format
 msgid "Please <a href=\"%s\">click here</a>"
-msgstr "Si us plau <a href=\"%s\">fes clic aquí</a>"
+msgstr "Si us plau, <a href=\"%s\">feu clic aquí</a>"
 
-#: includes/functions.php:584
+#: includes/functions.php:630
 msgid "Too many URLs added too fast. Slow down please."
-msgstr "Moltes URL afegides massa aviat. Calma."
+msgstr "S'han intentat afegir molts URL de cop. Si us plau, calmeu-vos."
 
-#: includes/functions.php:584
+#: includes/functions.php:630
 msgid "Too Many Requests"
-msgstr "Massa peticions de redirecció"
+msgstr "Massa peticions"
 
-#: includes/functions.php:1006
+#: includes/functions.php:1057
 msgid "Service temporarily unavailable"
 msgstr "El servei no està disponible temporalment"
 
-#: includes/functions.php:1007
+#: includes/functions.php:1058
 msgid "Our service is currently undergoing scheduled maintenance."
 msgstr "El servei està actualment en manteniment."
 
-#: includes/functions.php:1008
+#: includes/functions.php:1059
 msgid ""
 "Things should not last very long, thank you for your patience and please "
 "excuse the inconvenience"
 msgstr ""
-"No ha de durar massa, gràcies per la seva paciència i perdoni les molèsties"
+"No ha de durar massa, gràcies per la vostra paciència i perdoneu les "
+"molèsties"
 
-#: includes/functions.php:1134
+#: includes/functions.php:1185
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr ""
-"%1$s és <strong>obsolet</strong> des de la versió %2$s! Usa %3$s com a "
+"%1$s és <strong>obsolet</strong> des de la versió %2$s! Useu %3$s com a "
 "substitució."
 
-#: includes/functions.php:1136
+#: includes/functions.php:1187
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s with no alternative "
@@ -1300,171 +1294,171 @@ msgstr ""
 "%1$s és <strong>obsolet</strong> des de la versió %2$s i no hi ha cap "
 "alternativa disponible."
 
-#: yourls-infos.php:210
+#: yourls-infos.php:212
 #, php-format
 msgid "Statistics for %s"
-msgstr "Estadístiques per %s"
+msgstr "Estadístiques per a %s"
 
-#: yourls-infos.php:233
+#: yourls-infos.php:235
 msgid "Aggregate stats for duplicate short URLs"
-msgstr "Estadístiques agrefades per a les URL curtes duplicades"
+msgstr "Estadístiques agregades per als URL curts duplicats"
 
-#: yourls-infos.php:241 yourls-infos.php:252
+#: yourls-infos.php:243 yourls-infos.php:254
 msgid "Traffic statistics"
 msgstr "Estadístiques de trànsit"
 
-#: yourls-infos.php:242 yourls-infos.php:439
+#: yourls-infos.php:244 yourls-infos.php:441
 msgid "Traffic location"
 msgstr "Ubicació del trànsit"
 
-#: yourls-infos.php:243 yourls-infos.php:476
+#: yourls-infos.php:245 yourls-infos.php:478
 msgid "Traffic sources"
-msgstr "Origen del trànsit"
+msgstr "Origens del trànsit"
 
-#: yourls-infos.php:260 yourls-infos.php:300
+#: yourls-infos.php:262 yourls-infos.php:302
 msgid "Last 24 hours"
 msgstr "Les últimes 24 hores"
 
-#: yourls-infos.php:261 yourls-infos.php:302
+#: yourls-infos.php:263 yourls-infos.php:304
 msgid "Last 7 days"
 msgstr "Els últims 7 dies"
 
-#: yourls-infos.php:262 yourls-infos.php:304
+#: yourls-infos.php:264 yourls-infos.php:306
 msgid "Last 30 days"
 msgstr "Els últims 30 dies"
 
-#: yourls-infos.php:263 yourls-infos.php:306
+#: yourls-infos.php:265 yourls-infos.php:308
 msgid "All time"
 msgstr "De sempre"
 
-#: yourls-infos.php:315
+#: yourls-infos.php:317
 #, php-format
 msgid "Number of hits : %s"
 msgstr "Nombre d'accessos: %s"
 
-#: yourls-infos.php:338
+#: yourls-infos.php:340
 msgid "Historical click count"
 msgstr "Recompte històric de clics"
 
-#: yourls-infos.php:345
+#: yourls-infos.php:347
 #, php-format
 msgid "about 1 day ago"
 msgid_plural "about %s days ago"
 msgstr[0] "aproximadament fa un dia"
 msgstr[1] "aproximadament fa %s dies"
 
-#: yourls-infos.php:348
+#: yourls-infos.php:350
 #, php-format
 msgid "Short URL created on %s"
-msgstr "URL curta creada a %s"
+msgstr "URL curt creat a %s"
 
-#: yourls-infos.php:363 yourls-infos.php:370
+#: yourls-infos.php:365 yourls-infos.php:372
 #, php-format
 msgid "%s per day"
 msgstr "%s per dia"
 
-#: yourls-infos.php:366
+#: yourls-infos.php:368
 #, php-format
 msgid "%s per hour"
 msgstr "%s per hora"
 
-#: yourls-infos.php:373
+#: yourls-infos.php:375
 #, php-format
 msgid "%s hit"
 msgid_plural "%s hits"
 msgstr[0] "%s accés"
 msgstr[1] "%s accessos"
 
-#: yourls-infos.php:380
+#: yourls-infos.php:382
 msgid "Best day"
 msgstr "Millor dia"
 
-#: yourls-infos.php:387
+#: yourls-infos.php:389
 #, php-format
 msgid "<strong>%1$s</strong> hit on %2$s"
 msgid_plural "<strong>%1$s</strong> hits on %2$s"
 msgstr[0] "<strong>%1$s</strong> accés a %2$s"
 msgstr[1] "<strong>%1$s</strong> accessos a %2$s"
 
-#: yourls-infos.php:388 yourls-infos.php:450
+#: yourls-infos.php:390 yourls-infos.php:452
 msgid "Click for more details"
-msgstr "Clic per a més informació"
+msgstr "Feu clic per a més informació"
 
-#: yourls-infos.php:394 yourls-infos.php:397
+#: yourls-infos.php:396 yourls-infos.php:399
 #, php-format
 msgid "Year %s"
 msgstr "Any %s"
 
-#: yourls-infos.php:416 yourls-infos.php:454
+#: yourls-infos.php:418 yourls-infos.php:456
 #, php-format
 msgid "1 hit"
 msgid_plural "%s hits"
 msgstr[0] "1 accés"
 msgstr[1] "%s accessos"
 
-#: yourls-infos.php:433
+#: yourls-infos.php:435
 msgid "No traffic yet. Get some clicks first!"
-msgstr "No hi ha trànsit encara. Espera els primers clics!"
+msgstr "No hi ha trànsit encara. Espereu els primers clics!"
 
-#: yourls-infos.php:448
+#: yourls-infos.php:450
 msgid "Top 5 countries"
 msgstr "Els 5 primers països"
 
-#: yourls-infos.php:461
+#: yourls-infos.php:463
 msgid "Overall traffic"
 msgstr "Trànsit global"
 
-#: yourls-infos.php:470
+#: yourls-infos.php:472
 msgid "No country data."
 msgstr "Sense informació de país."
 
-#: yourls-infos.php:485
+#: yourls-infos.php:487
 msgid "Referrer shares"
 msgstr "Referents compartits"
 
-#: yourls-infos.php:488 yourls-infos.php:490
+#: yourls-infos.php:490 yourls-infos.php:492
 msgid "Others"
 msgstr "Altres"
 
-#: yourls-infos.php:492 yourls-infos.php:525
+#: yourls-infos.php:494 yourls-infos.php:527
 msgid "Referrers"
-msgstr "Referent"
+msgstr "Referents"
 
-#: yourls-infos.php:499 yourls-infos.php:509
+#: yourls-infos.php:501 yourls-infos.php:511
 msgid "(details)"
 msgstr "(detalls)"
 
-#: yourls-infos.php:509
+#: yourls-infos.php:511
 msgid "Various:"
 msgstr "Varis:"
 
-#: yourls-infos.php:523
-msgid "Direct vs Referrer Traffic"
-msgstr "Trànsit Directe vs Referent"
-
 #: yourls-infos.php:525
+msgid "Direct vs Referrer Traffic"
+msgstr "Trànsit Directe / Referit"
+
+#: yourls-infos.php:527
 msgid "Direct"
 msgstr "Directe"
 
-#: yourls-infos.php:527
+#: yourls-infos.php:529
 msgid "Direct traffic:"
 msgstr "Trànsit Directe:"
 
-#: yourls-infos.php:527 yourls-infos.php:528
+#: yourls-infos.php:529 yourls-infos.php:530
 #, php-format
 msgid "<strong>%s</strong> hit"
 msgid_plural "<strong>%s</strong> hits"
 msgstr[0] "<strong>%s</strong> accés"
 msgstr[1] "<strong>%s</strong> accessos"
 
-#: yourls-infos.php:528
+#: yourls-infos.php:530
 msgid "Referrer traffic:"
-msgstr "Trànsit Referent:"
+msgstr "Trànsit referit:"
 
-#: yourls-infos.php:537
+#: yourls-infos.php:539
 msgid "No referrer data."
 msgstr "Sense informació dels referents."
 
-#: yourls-infos.php:548
+#: yourls-infos.php:550
 msgid "Short link"
 msgstr "Enllaç curt"
